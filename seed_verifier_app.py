@@ -262,4 +262,8 @@ iface = gr.Interface(
     description="Upload a seed image to get instant authenticity check with detailed analysis."
 )
 
-iface.launch()
+
+iface.launch(share=True)
+
+
+
